@@ -777,6 +777,7 @@ export const VALID_GUESSES = [
   'bajra',
   'bajri',
   'bajus',
+  'bajwa',
   'baked',
   'baken',
   'baker',
