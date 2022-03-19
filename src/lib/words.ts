@@ -89,4 +89,4 @@ export const getWordOfDay = () => {
   }
 }
 
-export const { solution, solutionIndex } = getWordOfDay()
+export const { solution, solutionIndex, tomorrow } = getWordOfDay()
