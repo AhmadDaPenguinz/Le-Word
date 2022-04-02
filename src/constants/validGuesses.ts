@@ -7597,6 +7597,7 @@ export const VALID_GUESSES = [
   'nudzh',
   'nuffs',
   'nugae',
+  'nuggs',
   'nuked',
   'nukes',
   'nulla',
