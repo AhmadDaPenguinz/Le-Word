@@ -6373,6 +6373,7 @@ export const VALID_GUESSES = [
   'livre',
   'llama',
   'llano',
+  'lmfao',
   'loach',
   'loads',
   'loafs',
