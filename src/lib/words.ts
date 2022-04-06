@@ -83,7 +83,7 @@ export const getWordOfDay = () => {
   const nextday = (index + 1) * msInDay + epochMs
 
   return {
-    solution: localeAwareUpperCase(WORDS[index % WORDS.length]),
+    solution: "MOUSA",
     solutionIndex: index,
     tomorrow: nextday,
   }
