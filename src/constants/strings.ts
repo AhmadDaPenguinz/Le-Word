@@ -1,6 +1,6 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
-export const WIN_MESSAGES = ['Could\'ve done better.', 'Sure.', 'Bruh']
+export const WIN_MESSAGES = ['Could\'ve done better.', 'Sure.', 'Bruh','You\'re terrible.','It took you this long?']
 export const GAME_COPIED_MESSAGE = 'Not gonna Copy shiz'
 export const NOT_ENOUGH_LETTERS_MESSAGE = 'You\'re missing letters, Sherlock.'
 export const WORD_NOT_FOUND_MESSAGE = 'Stop making stuff up. You always do this.'
@@ -17,8 +17,8 @@ export const NOT_CONTAINED_MESSAGE = (letter: string) =>
   `Guess must contain ${letter}`
 export const ENTER_TEXT = 'Enter'
 export const DELETE_TEXT = 'Delete'
-export const STATISTICS_TITLE = 'Statistics'
-export const GUESS_DISTRIBUTION_TEXT = 'Guess Distribution'
+export const STATISTICS_TITLE = 'Statistics (Tally of your failures)'
+export const GUESS_DISTRIBUTION_TEXT = 'Guess Distribution. Haha.'
 export const NEW_WORD_TEXT = 'New word in'
 export const SHARE_TEXT = 'Share'
 export const TOTAL_TRIES_TEXT = 'Total tries'
