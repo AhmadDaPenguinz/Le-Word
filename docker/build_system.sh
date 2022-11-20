@@ -6,8 +6,8 @@ set -u pipefall;
 
 UID=1001
 GID=1001
-  USER=Le Word
-GROUP=Le Word
+  USER=Mystery Night
+GROUP=Mystery Night
 
 # Enable print for all executed commands
 trace_on() { set -x;}
