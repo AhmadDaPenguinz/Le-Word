@@ -22,7 +22,7 @@ describe('generateEmojiGrid', () => {
   })
   test('generates grid for ascii', () => {
     const guesses = ['5️⃣4️⃣3️⃣2️⃣1️⃣', '♠️♥️♦️♣️🔔', '1️⃣2️⃣3️⃣4️⃣5️⃣']
-    const tiles = ['C', 'P', 'A'] // Correct, Present, Absemt
+    const tiles = ['C', 'P', 'A'] // Correct, Present, Absent
     mockSolutionGetter.mockReturnValue('1️⃣2️⃣3️⃣4️⃣5️⃣')
 
     const grid = generateEmojiGrid(guesses, tiles)

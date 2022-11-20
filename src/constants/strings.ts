@@ -1,13 +1,13 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
-export const WIN_MESSAGES = ['Could\'ve done better.', 'Sure.', 'Bruh']
-export const GAME_COPIED_MESSAGE = 'Not gonna Copy shiz'
-export const NOT_ENOUGH_LETTERS_MESSAGE = 'You\'re missing letters, Sherlock.'
-export const WORD_NOT_FOUND_MESSAGE = 'Stop making stuff up. You always do this.'
+export const WIN_MESSAGES = ['Splendid', 'Brilliant', 'Magnificent','Great','Genius']
+export const GAME_COPIED_MESSAGE = 'Copied!'
+export const NOT_ENOUGH_LETTERS_MESSAGE = 'You\'re missing letters!'
+export const WORD_NOT_FOUND_MESSAGE = 'Word not found'
 export const HARD_MODE_ALERT_MESSAGE =
-  'Should\'ve done it before the game began.'
+    'Game has already begun'
 export const HARD_MODE_DESCRIPTION =
-  'Can you walk without stumbling?'
+  'Give yourself a challenge!'
 export const HIGH_CONTRAST_MODE_DESCRIPTION = 'Colors Recalibrated!'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
   `The word was ${solution}`
